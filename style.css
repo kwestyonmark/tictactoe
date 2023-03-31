@@ -1,5 +1,18 @@
 body {
     margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    overflow: hidden;
+}
+.title {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    width: max-content;
+    padding-top: 50px;
+    transform: translate(-50%);
+    font-size: 30px;
 }
 .board {
     display: grid;
@@ -23,6 +36,15 @@ body {
     grid-column-end: 4;
     margin: auto;
     margin-top: 10px;
+}
+button {
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Permanent Marker';
+}
+button:hover {
+    color: goldenrod;
 }
 #message {
     font-size: xx-large;
